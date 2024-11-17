@@ -19,7 +19,7 @@ const MainMenu = ({ openLevels, setIsMuted, isMuted, openCredits }) => {
       {/* Title of Game */}
       <h1
         style={{
-          fontSize: "4rem", 
+          fontSize: "7rem", //was 4 before now increased size for Bigger Title
           color: "#FFD700", // Gold
           textShadow: "0 0 20px #FFD700, 0 0 40px #FFD700", // Glowing
         }}

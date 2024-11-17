@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Connection Untangle
 
-## Available Scripts
+**Created by Nikul Ram**  
+**GitHub Repository:** [Connection Untangle](https://github.com/nikulram/connection-untangle)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Inspiration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For me, inspiration was Planar Graphs. I like graphs and their complex behaviors when combined with algorithms. It's challenging and fun at the same time. Apart from that, I wanted to make something that can be both challenging and fun. I remember a few years ago, I saw a game with planar graphs, so I recalled that and made my version of a Planar Graph game.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## What It Does
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It tangles the lines, and then you as a user have to untangle and solve the puzzle so that no lines intersect. As soon as you solve the puzzle, a victory message pops up on the screen, and you get the option to go to other levels or the main menu. It also tracks progress during the session: if you solve a level, it records the time, and the lesser the time, the higher your score. Best time per level is used to track high scores. It's challenging and fun, where users can challenge their friends to see who can solve the level the fastest. In conclusion, you have to Untangle the Connections.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How I Built It and How to Run the App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I researched Graphs and then read the theory, which links I have included in the app under the credits section. I built this using React and Node.js. Here's how you can run it:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Download or clone the repository from [GitHub](https://github.com/nikulram/connection-untangle) to your PC.
+2. Open a terminal in the project directory and run `npm install` to install all the required packages.
+3. Run `npm start` to launch the app. It will open in your default browser, and you're ready to play!
 
-### `npm run eject`
+**Prerequisites** :
+Make sure you have Node.js installed on your PC.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Challenges I Ran Into
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Many bugs, such as intersecting lines not being detected correctly. Creating the logic to fix this was challenging, and I had to use debugging tools to resolve the issue. Another challenge was ensuring that the graph generated is planar (solvable). Fixing that required implementing the correct logic.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Accomplishments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I successfully completed the game and ensured that every graph generated is a planar graph! Fixing this was the biggest accomplishment in this project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Was mde for WOLFJAM 2024 
+[WOLFJAM PROJECT](https://devpost.com/software/connection-untangle)
