@@ -43,5 +43,5 @@ I successfully completed the game and ensured that every graph generated is a pl
 
 ---
 
-## Was mde for WOLFJAM 2024 
+## Was made for WOLFJAM 2024 
 [WOLFJAM PROJECT](https://devpost.com/software/connection-untangle)
