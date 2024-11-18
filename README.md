@@ -45,3 +45,5 @@ I successfully completed the game and ensured that every graph generated is a pl
 
 ## Was made for WOLFJAM 2024 
 [WOLFJAM PROJECT](https://devpost.com/software/connection-untangle)
+
+[PLAY ONLINE WITH PC](https://nikulram.github.io/connection-untangle/)
