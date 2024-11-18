@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/connection-untangle/static/css/main.f855e6bc.css",
+    "main.js": "/connection-untangle/static/js/main.758cfffb.js",
+    "static/js/453.668c2a3e.chunk.js": "/connection-untangle/static/js/453.668c2a3e.chunk.js",
+    "index.html": "/connection-untangle/index.html",
+    "main.f855e6bc.css.map": "/connection-untangle/static/css/main.f855e6bc.css.map",
+    "main.758cfffb.js.map": "/connection-untangle/static/js/main.758cfffb.js.map",
+    "453.668c2a3e.chunk.js.map": "/connection-untangle/static/js/453.668c2a3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.758cfffb.js"
+  ]
+}
